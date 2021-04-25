@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert li{
+    padding: 5px;
+}
+
+.alert-red{
+    width: 200px;
+    background-color: rgb(248, 91, 91);
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.glass{
+    min-height: 70vh;
+    background: white;
+    width: 50%;
+    background: linear-gradient(to right bottom, rgba(255,255,255, 0.6), rgba(255,255,255, 0.3));
+}
+
+.form-group{
+    width: 50%;
+    margin: 150px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group > form{
+    margin: 50px;
+}
+
+.form-group form input,
+.form-group form select{
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    background: linear-gradient(to right bottom, rgba(255,255,255, 0.6), rgba(255,255,255, 0.3));
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+
+.btn button{
+    padding: 10px;
+    width: 200px;
+    background: linear-gradient(to right top, #08e49b, #04fa4e);
+    border: none;
+    border-radius: 10px;
+}
+
+/* DASHBOARD */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    padding-right: 5px;
+    list-style: none;
+}
+
+nav li{
+    padding-right: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+}
+
+.dashboard{
+    background: linear-gradient(to right top, #04fa4e, #08e49b);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    margin: 100px auto;
+}
+
+.form table{
+    padding: 10px;
+}
+
+.form table th{
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.form table td{
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.form-user{
+    margin-bottom: 50px;
+}
